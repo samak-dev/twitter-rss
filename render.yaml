@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: twitter-rss
-    env: python
-    buildCommand: ""
-    startCommand: python twitter_rss.py
-    plan: free
-    region: oregon
